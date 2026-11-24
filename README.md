@@ -1,6 +1,6 @@
 # Projeto 01 — Biblioteca escolar
 
-**Nível:** Básico | **Dados:** 100% fictícios | **Tecnologia:** SQLite (sem dependências pagas)
+**Nível:** Básico | **Dados:** 100% fictícios | **Tecnologia:** SQLite
 
 ## Situação
 
@@ -8,7 +8,7 @@ A biblioteca precisa entender seu acervo e a movimentação dos livros.
 
 ## Objetivo
 
-Resolver perguntas de análise de dados com SQL, fundamentando as decisões e apresentando resultados reproduzíveis. **Este projeto contém dados e desafios, mas não contém respostas.**
+Resolver perguntas de análise de dados com SQL, fundamentando as decisões e apresentando resultados reproduzíveis.
 
 ## Conceitos praticados
 
@@ -32,9 +32,9 @@ Resolver perguntas de análise de dados com SQL, fundamentando as decisões e ap
 
 - `banco/estudo.db`: banco pronto para consultas.
 - `sql/00_estrutura.sql`: esquema das tabelas, sem preenchimento de dados.
-- `sql/01_minhas_consultas.sql`: espaço para suas consultas.
+- `sql/01_minhas_consultas.sql`: espaço para as consultas.
 - `dados/*.csv`: exportações das tabelas, separadas por ponto e vírgula.
-- `docs/ROTEIRO.md`: missões graduais, sem soluções.
+- `docs/ROTEIRO.md`: missões graduais.
 - `docs/DIARIO.md`: seu diário de erros, decisões e aprendizados.
 
 ## Estrutura e quantidades
