@@ -6,7 +6,7 @@
 ## Antes de começar
 
 1. Abra `banco/estudo.db` no DB Browser for SQLite.
-2. Entre na aba **Executar SQL**. Faça `SELECT * FROM nome_da_tabela LIMIT 5;` nas tabelas que encontrar.
+2. Entre na aba **Executar SQL**.
 3. Observe na **Estrutura do Banco** os nomes, tipos, chaves e relações das tabelas.
 4. Escreva suas soluções em `sql/01_minhas_consultas.sql` e salve o arquivo.
 5. Salve descobertas, erros e decisões em `docs/DIARIO.md`.
@@ -29,13 +29,6 @@
 
 - Qual é a unidade de cada linha? Um cliente, uma compra, um item, uma ocorrência?
 - Há registros ausentes? Qual a diferença entre `NULL` e um campo preenchido com espaços?
-- Sua consulta pode duplicar contagens quando você faz `JOIN`?
-- Como você verificou se o resultado está correto?
-
-## Atenção a estas armadilhas
-
-- Ausência de e-mail é NULL, não uma string vazia.
-- Não confunda empréstimos com livros únicos.
 
 ## Desafio extra
 
@@ -46,5 +39,3 @@ Crie uma consulta que permita inspecionar empréstimos ainda abertos em ordem de
 - Arquivo `sql/01_minhas_consultas.sql` preenchido com consultas comentadas.
 - Pequeno texto em `docs/DIARIO.md` explicando o que você encontrou e como validou.
 - `README.md` atualizado com habilidades exercitadas e capturas de tela opcionais.
-
-**Não existem respostas prontas no kit.**
