@@ -1,0 +1,6 @@
+*.db-journal
+*.db-wal
+*.db-shm
+__pycache__/
+.venv/
+.DS_Store
