@@ -3,3 +3,4 @@
 
 -- QUESTÃO 01
 
+SELECT * from emprestimos
