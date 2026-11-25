@@ -1,6 +1,24 @@
--- Escreva suas próprias consultas aqui.
--- Sem gabarito: comece pelo primeiro desafio do roteiro.
+-- Número total de alunos únicos cadastrados, sem repetições
+-- /*
+SELECT count(DISTINCT nome) FROM alunos;
+-- */
 
--- QUESTÃO 01
+-- /*
+-- Número total de alunos cadastrados
+SELECT count(nome) from alunos
+-- */
 
-SELECT * from emprestimos
+/**/
+-- Número total de títulos cadastrados
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
