@@ -18,7 +18,7 @@
 2. [ ] Encontre livros de uma categoria escolhida.
 3. [ ] Liste livros publicados a partir de determinado ano.
 4. [ ] Conte quantos livros existem por categoria.
-5. [ ] Encontre alunos sem e-mail informado.
+5. 
 6. [ ] Conte empréstimos abertos e devolvidos.
 7. [ ] Liste os cinco livros mais recentes.
 8. [ ] Calcule a proporção de empréstimos por status.
