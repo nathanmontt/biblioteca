@@ -41,6 +41,8 @@ Resolver perguntas de análise de dados com SQL, fundamentando as decisões e ap
 [x] Qual é a quantidade total de exemplares distintos disponíveis na biblioteca?
 [x] Quantos alunos únicos existem em cada turma presente no banco de dados?
 [x] Quantos livros existentes possuem o mesmo ano de publicação?
+[ ] Quantos livros existentes por categoria?
+[ ] Quantos empréstimos abertos e devolvidos?
 [ ] Quantos alunos diferentes já pegaram livros emprestados?
 [ ] Quantos alunos diferentes não possuem o e-mail informado?
 [ ] Qual é o total de empréstimos pendentes de devolução?
@@ -61,6 +63,7 @@ Qual é a média de dias que um aluno leva para devolver um livro (considerando 
 
 > Preencher: verificações de contagem, filtros, `NULL`, possíveis duplicidades e relações.
 1. Utilização do `COUNT(x)`.
+1. quantos livros existem por categoria..
 2. Verificação de contagem, usando `GROUP BY` para olhar todos os resultados.
 3. Uso do `BETWEEN`
 4. 
