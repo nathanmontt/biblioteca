@@ -41,9 +41,9 @@ Resolver perguntas de análise de dados com SQL, fundamentando as decisões e ap
 [x] Qual é a quantidade total de exemplares distintos disponíveis na biblioteca?
 [x] Quantos alunos únicos existem em cada turma presente no banco de dados?
 [x] Quantos livros existentes possuem o mesmo ano de publicação?
-[ ] Quantos livros existentes por categoria?
-[ ] Quantos empréstimos abertos e devolvidos?
-[ ] Quantos alunos diferentes já pegaram livros emprestados?
+[x] Quantos livros existentes por categoria?
+[x] Quantos empréstimos abertos e devolvidos?
+[x] Quantos alunos únicos já pegaram livros emprestados?
 [ ] Quantos alunos diferentes não possuem o e-mail informado?
 [ ] Qual é o total de empréstimos pendentes de devolução?
 
@@ -53,11 +53,11 @@ Qual é a média de dias que um aluno leva para devolver um livro (considerando 
 
 1. Há **65 títulos/exemplares disponíveis** na biblioteca.
 2. Há `14 alunos` na turma 1A, `23 alunos` na turma 1B, `14 alunos` na turma 2A, `16 alunos` na turma 2B e `13 alunos` na turma 3A, totalizando `80 alunos`.
-3. Como há um espaço de 23 anos entre as publicações, usarei o ano que possui maior índice de livros: **2015**, com **6 exemplares** 
-4. 
-5. 
+3. Como há 23 anos entre as publicações, o ano que possui maior índice de livros: **2015**, com **6 exemplares** 
+4. Nada de novo
+5. Nada de novo
 6. 
- 
+7. 
 
 ## Como validei
 
@@ -66,9 +66,10 @@ Qual é a média de dias que um aluno leva para devolver um livro (considerando 
 1. quantos livros existem por categoria..
 2. Verificação de contagem, usando `GROUP BY` para olhar todos os resultados.
 3. Uso do `BETWEEN`
-4. 
-5. 
+4. Nada de novo
+5. Nada de novo
 6. 
+7. 
 
 ## Próximas melhorias
 
