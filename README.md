@@ -38,26 +38,34 @@ Resolver perguntas de análise de dados com SQL, fundamentando as decisões e ap
 - `docs/DIARIO.md`: seu diário de erros, decisões e aprendizados.
 
 ## Perguntas a serem feitas
-1. [ ] Qual é o número total de títulos cadastrados?
-2. [ ] Qual é a soma total de exemplares disponíveis na biblioteca?
-3. [ ] Quantos alunos únicos existem?
-4. [x] Quantos alunos únicos existem em cada turma presente no banco de dados?
-5. [ ] Quantos livros existem que possue o mesmo ano de publicação?
-6. [ ] Quantos alunos diferentes já pegaram livros emprestados?
-7. [ ] Qual é o total de empréstimos pendentes de devolução?
+[x] Qual é a quantidade total de exemplares distintos disponíveis na biblioteca?
+[x] Quantos alunos únicos existem em cada turma presente no banco de dados?
+[x] Quantos livros existentes possuem o mesmo ano de publicação?
+[ ] Quantos alunos diferentes já pegaram livros emprestados?
+[ ] Quantos alunos diferentes não possuem o e-mail informado?
+[ ] Qual é o total de empréstimos pendentes de devolução?
 
 Qual é a média de dias que um aluno leva para devolver um livro (considerando apenas os já devolvidos)?
 
 ## O que descobri
 
-1. A turma `1B` possui maior predominância de alunos
-2. 
+1. Há **65 títulos/exemplares disponíveis** na biblioteca.
+2. Há `14 alunos` na turma 1A, `23 alunos` na turma 1B, `14 alunos` na turma 2A, `16 alunos` na turma 2B e `13 alunos` na turma 3A, totalizando `80 alunos`.
+3. Como há um espaço de 23 anos entre as publicações, usarei o ano que possui maior índice de livros: **2015**, com **6 exemplares** 
+4. 
+5. 
+6. 
+ 
 
 ## Como validei
 
 > Preencher: verificações de contagem, filtros, `NULL`, possíveis duplicidades e relações.
-1. Verificação de contagem, usando `group by` para olhar todos os resultados
-2. 
+1. Utilização do `COUNT(x)`.
+2. Verificação de contagem, usando `GROUP BY` para olhar todos os resultados.
+3. Uso do `BETWEEN`
+4. 
+5. 
+6. 
 
 ## Próximas melhorias
 
