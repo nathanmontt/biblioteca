@@ -38,13 +38,13 @@ Resolver perguntas de análise de dados com SQL, fundamentando as decisões e ap
 - `docs/DIARIO.md`: seu diário de erros, decisões e aprendizados.
 
 ## Perguntas a serem feitas
-1. [] Qual é o número total de títulos cadastrados?
-2. [] Qual é a soma total de exemplares disponíveis na biblioteca?
-3. [] Quantos alunos únicos existem?
+1. [ ] Qual é o número total de títulos cadastrados?
+2. [ ] Qual é a soma total de exemplares disponíveis na biblioteca?
+3. [ ] Quantos alunos únicos existem?
 4. [x] Quantos alunos únicos existem em cada turma presente no banco de dados?
-5. [] Quantos livros existem que possue o mesmo ano de publicação?
-6. [] Quantos alunos diferentes já pegaram livros emprestados?
-7. [] Qual é o total de empréstimos pendentes de devolução?
+5. [ ] Quantos livros existem que possue o mesmo ano de publicação?
+6. [ ] Quantos alunos diferentes já pegaram livros emprestados?
+7. [ ] Qual é o total de empréstimos pendentes de devolução?
 
 Qual é a média de dias que um aluno leva para devolver um livro (considerando apenas os já devolvidos)?
 
