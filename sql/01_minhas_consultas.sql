@@ -54,7 +54,14 @@ WHERE status = 'aberto'
 */
 
 
-/**/
+/*
+-- Alunos únicos que não possuem o e-mail
+select DISTINCT nome, email
+FROM alunos
+WHERE email is NULL
+*/
+
+
 /**/
 /**/
 /**/

@@ -44,10 +44,7 @@ Resolver perguntas de análise de dados com SQL, fundamentando as decisões e ap
 [x] Quantos livros existentes por categoria?
 [x] Quantos empréstimos abertos e devolvidos?
 [x] Quantos alunos únicos já pegaram livros emprestados?
-[ ] Quantos alunos diferentes não possuem o e-mail informado?
-[ ] Qual é o total de empréstimos pendentes de devolução?
-
-Qual é a média de dias que um aluno leva para devolver um livro (considerando apenas os já devolvidos)?
+[x] Quantos alunos diferentes não possuem o e-mail informado?
 
 ## O que descobri
 
@@ -56,8 +53,7 @@ Qual é a média de dias que um aluno leva para devolver um livro (considerando 
 3. Como há 23 anos entre as publicações, o ano que possui maior índice de livros: **2015**, com **6 exemplares** 
 4. Nada de novo
 5. Nada de novo
-6. 
-7. 
+6. Nada de novo
 
 ## Como validei
 
@@ -68,12 +64,8 @@ Qual é a média de dias que um aluno leva para devolver um livro (considerando 
 3. Uso do `BETWEEN`
 4. Nada de novo
 5. Nada de novo
-6. 
-7. 
+6. Nada de novo
 
-## Próximas melhorias
-
-> Preencher: análises, índices ou visualizações que você gostaria de acrescentar.
 
 ## Referências
 
