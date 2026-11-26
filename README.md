@@ -15,7 +15,6 @@ Resolver perguntas de análise de dados com SQL, fundamentando as decisões e ap
 - `SELECT`
 - `WHERE`
 - `ORDER BY`
-- `LIKE`
 - `COUNT`
 - `GROUP BY`
 - `IS NULL`
@@ -57,7 +56,6 @@ Resolver perguntas de análise de dados com SQL, fundamentando as decisões e ap
 
 ## Como validei
 
-> Preencher: verificações de contagem, filtros, `NULL`, possíveis duplicidades e relações.
 1. Utilização do `COUNT(x)`.
 1. quantos livros existem por categoria..
 2. Verificação de contagem, usando `GROUP BY` para olhar todos os resultados.
