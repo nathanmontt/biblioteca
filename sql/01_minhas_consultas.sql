@@ -6,7 +6,7 @@ FROM alunos;
 
 -- Número total de alunos cadastrados em cada turma
 -- SELECT DISTINCT turma, nome
-SELECT DISTINCT turma, count(nome)
+SELECT turma, count(nome)
 FROM alunos
 WHERE turma in ('1A', '1B', '2A', '2B', '3A')
 GROUP by turma;
@@ -45,4 +45,4 @@ WHERE alunos.aluno_id = emprestimos.aluno_id AND status = 'aberto';
 -- Alunos únicos que não possuem o e-mail
 select DISTINCT nome, email
 FROM alunos
-WHERE email is NULL;
+WHERE email is NULL or email = '';
