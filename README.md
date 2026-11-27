@@ -37,6 +37,7 @@ Resolver perguntas de análise de dados com SQL, fundamentando as decisões e ap
 - `docs/DIARIO.md`: seu diário de erros, decisões e aprendizados.
 
 ## Perguntas a serem feitas
+
 [x] Qual é a quantidade total de exemplares distintos disponíveis na biblioteca?
 [x] Quantos alunos únicos existem em cada turma presente no banco de dados?
 [x] Quantos livros existentes possuem o mesmo ano de publicação?
